@@ -9,7 +9,7 @@ define(Product, (faker: typeof Faker) => {
   product.name = faker.random.word();
   product.price = 500;
   product.discount_percentage = 0;
-  product.description = faker.lorem.paragraph();
+  product.description = faker.random.word();
 
   return product;
 });
