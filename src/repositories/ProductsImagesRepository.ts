@@ -21,6 +21,16 @@ class ProductsImagesRepository implements IProductsImagesRepository {
 
     await this.repository.save(productImage);
   }
+
+  async findByID(id: string): Promise<ProductImage | undefined> {
+    const productImage = await this.repository.findOne(id);
+
+    return productImage;
+  }
+
+  async deleteByID(id: string): Promise<void> {
+    await this.repository.delete(id);
+  }
 }
 
 export { ProductsImagesRepository };
