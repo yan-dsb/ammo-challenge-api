@@ -25,5 +25,8 @@ Aplicação de produtos de e-commerce
 
 Após isso, a aplicação estará disponível em `http://localhost:3333`
 
+
+## 📝 Documentação
+Pode ser encontrada `http://localhost:3333/api-docs`
 ## 🖥 Link da API hospedada na AWS EC2
 https://ammo.yandsb.dev/
